@@ -19,8 +19,7 @@ const replaceVal = (temval, orgval) => {
 const server = http.createServer((req, res) => {
   if (req.url == "/") {
     requests(
-
-      "http://api.openweathermap.org/data/2.5/weather?q=belgrade&units=metric&appid=cffecceafab4795d98bde4086c0332bb"
+      url
     )
       .on("data", (chunk) => {
         const objdata = JSON.parse(chunk);
