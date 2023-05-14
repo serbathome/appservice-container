@@ -13,7 +13,7 @@ Deploy infrastructure, build custom nginx image and deploy to appservice
 
 Build new image and update release
 
-3. update index.html, set the version to 2
+3. update src/server.js, set the version to 2
 4. ./scripts/build.sh
 5. ./scripts/deploy_app.sh
 
