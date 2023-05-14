@@ -1,6 +1,6 @@
 #!/bin/bash
 
-acr=ptacrxxky.azurecr.io
+acr=ptacrtapd.azurecr.io
 
 az acr build \
 --registry $acr \

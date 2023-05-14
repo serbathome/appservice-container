@@ -90,6 +90,8 @@ resource "azurerm_app_service" "app-service" {
 
   app_settings = {
     "DOCKER_REGISTRY_SERVER_URL" = azurerm_container_registry.acr.login_server
+    "MY_VAR"                     = "London"
+    "WEBSITES_PORT"              = "8080"
   }
 
   identity {

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-rg=appservices-XXKY
-name=provider-tools-appservice-XXKY
+rg=appservices-TApD
+name=provider-tools-appservice-TApD
 
 az webapp config appsettings list \
 --resource-group $rg \

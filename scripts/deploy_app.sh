@@ -1,8 +1,8 @@
 #!/bin/bash
 
-rg=appservices-XXKY
-name=provider-tools-appservice-XXKY
-acr=ptacrxxky.azurecr.io
+rg=appservices-TApD
+name=provider-tools-appservice-TApD
+acr=ptacrtapd.azurecr.io
 
 az webapp config set \
 --resource-group $rg \
